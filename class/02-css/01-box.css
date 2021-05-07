@@ -1,0 +1,29 @@
+.aaa {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 20px;
+    box-sizing:border-box
+
+}
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 20px;
+    box-sizing:border-box
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    /*justify-content: flex flex-end;*/
+    justify-content: center;
+    align-items: flex-end;
+
+}
